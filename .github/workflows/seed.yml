@@ -1,0 +1,8 @@
+name: seed
+on:
+  workflow_dispatch:
+jobs:
+  a:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo seed
